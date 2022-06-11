@@ -1,0 +1,6 @@
+framework module Pods_SPBanks {
+  umbrella header "Pods-SPBanks-umbrella.h"
+
+  export *
+  module * { export * }
+}

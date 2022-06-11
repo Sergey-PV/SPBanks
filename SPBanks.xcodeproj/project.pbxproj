@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF9CA65E3354D00667C3E027 /* Pods_SPBanks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */; };
 		FFE112F82853C1F400C6DB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F72853C1F400C6DB57 /* AppDelegate.swift */; };
 		FFE112FA2853C1F400C6DB57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */; };
 		FFE112FC2853C1F400C6DB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112FB2853C1F400C6DB57 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23409991B6C1121907FDD514 /* Pods-SPBanks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBanks.debug.xcconfig"; path = "Target Support Files/Pods-SPBanks/Pods-SPBanks.debug.xcconfig"; sourceTree = "<group>"; };
+		7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPBanks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0BEDB280F3D54BC6A4B8D2 /* Pods-SPBanks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBanks.release.xcconfig"; path = "Target Support Files/Pods-SPBanks/Pods-SPBanks.release.xcconfig"; sourceTree = "<group>"; };
 		FFE112F42853C1F400C6DB57 /* SPBanks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPBanks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE112F72853C1F400C6DB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9CA65E3354D00667C3E027 /* Pods_SPBanks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52AF446AB13AB048D8DEC543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23409991B6C1121907FDD514 /* Pods-SPBanks.debug.xcconfig */,
+				7C0BEDB280F3D54BC6A4B8D2 /* Pods-SPBanks.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D42AAD42E2C28A752A8162B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFE112EB2853C1F400C6DB57 = {
 			isa = PBXGroup;
 			children = (
 				FFE112F62853C1F400C6DB57 /* SPBanks */,
 				FFE112F52853C1F400C6DB57 /* Products */,
+				52AF446AB13AB048D8DEC543 /* Pods */,
+				5D42AAD42E2C28A752A8162B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,10 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFE1130B2853C1F400C6DB57 /* Build configuration list for PBXNativeTarget "SPBanks" */;
 			buildPhases = (
+				389F1CF9CBAACEF3FF45156D /* [CP] Check Pods Manifest.lock */,
 				FFE112F02853C1F400C6DB57 /* Sources */,
 				FFE112F12853C1F400C6DB57 /* Frameworks */,
 				FFE112F22853C1F400C6DB57 /* Resources */,
 				FFE1130E2853C77F00C6DB57 /* SwiftLint */,
+				E51486910FF5AB7D52F62954 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +161,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		389F1CF9CBAACEF3FF45156D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPBanks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51486910FF5AB7D52F62954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPBanks/Pods-SPBanks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPBanks/Pods-SPBanks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SPBanks/Pods-SPBanks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FFE1130E2853C77F00C6DB57 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,6 +362,7 @@
 		};
 		FFE1130C2853C1F400C6DB57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23409991B6C1121907FDD514 /* Pods-SPBanks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,6 +391,7 @@
 		};
 		FFE1130D2853C1F400C6DB57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0BEDB280F3D54BC6A4B8D2 /* Pods-SPBanks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
