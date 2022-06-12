@@ -1,2 +1,4 @@
 excluded:
   - Pods
+nesting:
+    type_level: 3

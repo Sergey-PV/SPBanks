@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF4CB71528560F9700C49B25 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB70F28560F9700C49B25 /* MapPresenter.swift */; };
+		FF4CB71628560F9700C49B25 /* MapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71028560F9700C49B25 /* MapWorker.swift */; };
+		FF4CB71728560F9700C49B25 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71128560F9700C49B25 /* MapRouter.swift */; };
+		FF4CB71828560F9700C49B25 /* MapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71228560F9700C49B25 /* MapModels.swift */; };
+		FF4CB71928560F9700C49B25 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71328560F9700C49B25 /* MapViewController.swift */; };
+		FF4CB71A28560F9700C49B25 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71428560F9700C49B25 /* MapInteractor.swift */; };
+		FF4CB7242856117200C49B25 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71E2856117200C49B25 /* ListPresenter.swift */; };
+		FF4CB7252856117200C49B25 /* ListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71F2856117200C49B25 /* ListWorker.swift */; };
+		FF4CB7262856117200C49B25 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB7202856117200C49B25 /* ListRouter.swift */; };
+		FF4CB7272856117200C49B25 /* ListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB7212856117200C49B25 /* ListModels.swift */; };
+		FF4CB7282856117200C49B25 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB7222856117200C49B25 /* ListViewController.swift */; };
+		FF4CB7292856117200C49B25 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB7232856117200C49B25 /* ListInteractor.swift */; };
+		FF4CB731285611A600C49B25 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB72B285611A600C49B25 /* DetailsPresenter.swift */; };
+		FF4CB732285611A600C49B25 /* DetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB72C285611A600C49B25 /* DetailsWorker.swift */; };
+		FF4CB733285611A600C49B25 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB72D285611A600C49B25 /* DetailsRouter.swift */; };
+		FF4CB734285611A600C49B25 /* DetailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB72E285611A600C49B25 /* DetailsModels.swift */; };
+		FF4CB735285611A600C49B25 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB72F285611A600C49B25 /* DetailsViewController.swift */; };
+		FF4CB736285611A600C49B25 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB730285611A600C49B25 /* DetailsInteractor.swift */; };
+		FF4CB7382856125A00C49B25 /* BelarusbankBranches.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */; };
 		FF9CA65E3354D00667C3E027 /* Pods_SPBanks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */; };
 		FFE112F82853C1F400C6DB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F72853C1F400C6DB57 /* AppDelegate.swift */; };
 		FFE112FA2853C1F400C6DB57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */; };
@@ -20,6 +39,25 @@
 		23409991B6C1121907FDD514 /* Pods-SPBanks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBanks.debug.xcconfig"; path = "Target Support Files/Pods-SPBanks/Pods-SPBanks.debug.xcconfig"; sourceTree = "<group>"; };
 		7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPBanks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0BEDB280F3D54BC6A4B8D2 /* Pods-SPBanks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBanks.release.xcconfig"; path = "Target Support Files/Pods-SPBanks/Pods-SPBanks.release.xcconfig"; sourceTree = "<group>"; };
+		FF4CB70F28560F9700C49B25 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		FF4CB71028560F9700C49B25 /* MapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWorker.swift; sourceTree = "<group>"; };
+		FF4CB71128560F9700C49B25 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		FF4CB71228560F9700C49B25 /* MapModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModels.swift; sourceTree = "<group>"; };
+		FF4CB71328560F9700C49B25 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FF4CB71428560F9700C49B25 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		FF4CB71E2856117200C49B25 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		FF4CB71F2856117200C49B25 /* ListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWorker.swift; sourceTree = "<group>"; };
+		FF4CB7202856117200C49B25 /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		FF4CB7212856117200C49B25 /* ListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModels.swift; sourceTree = "<group>"; };
+		FF4CB7222856117200C49B25 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		FF4CB7232856117200C49B25 /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		FF4CB72B285611A600C49B25 /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		FF4CB72C285611A600C49B25 /* DetailsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsWorker.swift; sourceTree = "<group>"; };
+		FF4CB72D285611A600C49B25 /* DetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
+		FF4CB72E285611A600C49B25 /* DetailsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModels.swift; sourceTree = "<group>"; };
+		FF4CB72F285611A600C49B25 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FF4CB730285611A600C49B25 /* DetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
+		FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelarusbankBranches.swift; sourceTree = "<group>"; };
 		FFE112F42853C1F400C6DB57 /* SPBanks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPBanks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE112F72853C1F400C6DB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +86,6 @@
 				23409991B6C1121907FDD514 /* Pods-SPBanks.debug.xcconfig */,
 				7C0BEDB280F3D54BC6A4B8D2 /* Pods-SPBanks.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +95,79 @@
 				7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF4CB71B28560FA300C49B25 /* Scences */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CB72A2856117A00C49B25 /* Details */,
+				FF4CB71D28560FF800C49B25 /* List */,
+				FF4CB71C28560FB400C49B25 /* Map */,
+			);
+			path = Scences;
+			sourceTree = "<group>";
+		};
+		FF4CB71C28560FB400C49B25 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CB71028560F9700C49B25 /* MapWorker.swift */,
+				FF4CB71128560F9700C49B25 /* MapRouter.swift */,
+				FF4CB71228560F9700C49B25 /* MapModels.swift */,
+				FF4CB71328560F9700C49B25 /* MapViewController.swift */,
+				FF4CB71428560F9700C49B25 /* MapInteractor.swift */,
+				FF4CB70F28560F9700C49B25 /* MapPresenter.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		FF4CB71D28560FF800C49B25 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CB71E2856117200C49B25 /* ListPresenter.swift */,
+				FF4CB71F2856117200C49B25 /* ListWorker.swift */,
+				FF4CB7202856117200C49B25 /* ListRouter.swift */,
+				FF4CB7212856117200C49B25 /* ListModels.swift */,
+				FF4CB7222856117200C49B25 /* ListViewController.swift */,
+				FF4CB7232856117200C49B25 /* ListInteractor.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		FF4CB72A2856117A00C49B25 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CB72B285611A600C49B25 /* DetailsPresenter.swift */,
+				FF4CB72C285611A600C49B25 /* DetailsWorker.swift */,
+				FF4CB72D285611A600C49B25 /* DetailsRouter.swift */,
+				FF4CB72E285611A600C49B25 /* DetailsModels.swift */,
+				FF4CB72F285611A600C49B25 /* DetailsViewController.swift */,
+				FF4CB730285611A600C49B25 /* DetailsInteractor.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		FF4CB7392856127100C49B25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CB73A2856128000C49B25 /* Belarusbank */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF4CB73A2856128000C49B25 /* Belarusbank */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CB73B2856615200C49B25 /* Branches */,
+			);
+			path = Belarusbank;
+			sourceTree = "<group>";
+		};
+		FF4CB73B2856615200C49B25 /* Branches */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */,
+			);
+			path = Branches;
 			sourceTree = "<group>";
 		};
 		FFE112EB2853C1F400C6DB57 = {
@@ -81,6 +191,8 @@
 		FFE112F62853C1F400C6DB57 /* SPBanks */ = {
 			isa = PBXGroup;
 			children = (
+				FF4CB7392856127100C49B25 /* Models */,
+				FF4CB71B28560FA300C49B25 /* Scences */,
 				FFE112F72853C1F400C6DB57 /* AppDelegate.swift */,
 				FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */,
 				FFE112FB2853C1F400C6DB57 /* ViewController.swift */,
@@ -226,7 +338,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFE112FC2853C1F400C6DB57 /* ViewController.swift in Sources */,
+				FF4CB7382856125A00C49B25 /* BelarusbankBranches.swift in Sources */,
 				FFE112F82853C1F400C6DB57 /* AppDelegate.swift in Sources */,
+				FF4CB71628560F9700C49B25 /* MapWorker.swift in Sources */,
+				FF4CB71A28560F9700C49B25 /* MapInteractor.swift in Sources */,
+				FF4CB732285611A600C49B25 /* DetailsWorker.swift in Sources */,
+				FF4CB71528560F9700C49B25 /* MapPresenter.swift in Sources */,
+				FF4CB7272856117200C49B25 /* ListModels.swift in Sources */,
+				FF4CB7292856117200C49B25 /* ListInteractor.swift in Sources */,
+				FF4CB71928560F9700C49B25 /* MapViewController.swift in Sources */,
+				FF4CB736285611A600C49B25 /* DetailsInteractor.swift in Sources */,
+				FF4CB71828560F9700C49B25 /* MapModels.swift in Sources */,
+				FF4CB731285611A600C49B25 /* DetailsPresenter.swift in Sources */,
+				FF4CB735285611A600C49B25 /* DetailsViewController.swift in Sources */,
+				FF4CB7282856117200C49B25 /* ListViewController.swift in Sources */,
+				FF4CB71728560F9700C49B25 /* MapRouter.swift in Sources */,
+				FF4CB7242856117200C49B25 /* ListPresenter.swift in Sources */,
+				FF4CB733285611A600C49B25 /* DetailsRouter.swift in Sources */,
+				FF4CB7252856117200C49B25 /* ListWorker.swift in Sources */,
+				FF4CB734285611A600C49B25 /* DetailsModels.swift in Sources */,
+				FF4CB7262856117200C49B25 /* ListRouter.swift in Sources */,
 				FFE113022853C1F400C6DB57 /* SPBanks.xcdatamodeld in Sources */,
 				FFE112FA2853C1F400C6DB57 /* SceneDelegate.swift in Sources */,
 			);
