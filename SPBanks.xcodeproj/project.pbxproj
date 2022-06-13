@@ -26,6 +26,7 @@
 		FF4CB735285611A600C49B25 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB72F285611A600C49B25 /* DetailsViewController.swift */; };
 		FF4CB736285611A600C49B25 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB730285611A600C49B25 /* DetailsInteractor.swift */; };
 		FF4CB7382856125A00C49B25 /* BelarusbankBranches.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */; };
+		FF4CB78828575B7500C49B25 /* BelarusbankATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB78728575B7500C49B25 /* BelarusbankATM.swift */; };
 		FF9CA65E3354D00667C3E027 /* Pods_SPBanks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */; };
 		FFE112F82853C1F400C6DB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F72853C1F400C6DB57 /* AppDelegate.swift */; };
 		FFE112FA2853C1F400C6DB57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */; };
@@ -58,6 +59,7 @@
 		FF4CB72F285611A600C49B25 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		FF4CB730285611A600C49B25 /* DetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
 		FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelarusbankBranches.swift; sourceTree = "<group>"; };
+		FF4CB78728575B7500C49B25 /* BelarusbankATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelarusbankATM.swift; sourceTree = "<group>"; };
 		FFE112F42853C1F400C6DB57 /* SPBanks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPBanks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE112F72853C1F400C6DB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */,
+				FF4CB78728575B7500C49B25 /* BelarusbankATM.swift */,
 			);
 			path = Branches;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				FF4CB7292856117200C49B25 /* ListInteractor.swift in Sources */,
 				FF4CB71928560F9700C49B25 /* MapViewController.swift in Sources */,
 				FF4CB736285611A600C49B25 /* DetailsInteractor.swift in Sources */,
+				FF4CB78828575B7500C49B25 /* BelarusbankATM.swift in Sources */,
 				FF4CB71828560F9700C49B25 /* MapModels.swift in Sources */,
 				FF4CB731285611A600C49B25 /* DetailsPresenter.swift in Sources */,
 				FF4CB735285611A600C49B25 /* DetailsViewController.swift in Sources */,

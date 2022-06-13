@@ -234,24 +234,6 @@ struct BelarusbankBranches: Codable {
             }
         }
 
-        // MARK: - The0
-        struct The0: Codable {
-            let serviceID: String
-            let type: String?
-            let name: String
-            let segment: Segment
-            let url: String
-            let currentStatus: CurrentStatus
-            let dateTime: String
-            let the0Description: String
-
-            enum CodingKeys: String, CodingKey {
-                case serviceID = "serviceId"
-                case type, name, segment, url, currentStatus, dateTime
-                case the0Description = "description"
-            }
-        }
-
         enum CurrentStatus: String, Codable {
             case active = "Active"
             case inactive = "Inactive"
