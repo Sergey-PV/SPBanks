@@ -1,13 +1,14 @@
 //
-//  ListModels.swift
+//  LoadingModels.swift
 //  SPBanks
 //
-//  Created by Sergey Parfentchik on 12.06.22.
+//  Created by Sergey Parfentchik on 15.06.22.
 //
 
 import UIKit
 
-enum List {
+enum Loading
+{
     // MARK: Use cases
 
     enum Something {
