@@ -27,10 +27,16 @@
 		FF4CB736285611A600C49B25 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB730285611A600C49B25 /* DetailsInteractor.swift */; };
 		FF4CB7382856125A00C49B25 /* BelarusbankBranches.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */; };
 		FF4CB78828575B7500C49B25 /* BelarusbankATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB78728575B7500C49B25 /* BelarusbankATM.swift */; };
+		FF4CB7912858B2E500C49B25 /* ObjectsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB7902858B2E500C49B25 /* ObjectsTabBarController.swift */; };
+		FF4CB79D285A177700C49B25 /* LoadingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB797285A177700C49B25 /* LoadingPresenter.swift */; };
+		FF4CB79E285A177700C49B25 /* LoadingWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB798285A177700C49B25 /* LoadingWorker.swift */; };
+		FF4CB79F285A177700C49B25 /* LoadingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB799285A177700C49B25 /* LoadingRouter.swift */; };
+		FF4CB7A0285A177700C49B25 /* LoadingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB79A285A177700C49B25 /* LoadingModels.swift */; };
+		FF4CB7A1285A177700C49B25 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB79B285A177700C49B25 /* LoadingViewController.swift */; };
+		FF4CB7A2285A177700C49B25 /* LoadingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB79C285A177700C49B25 /* LoadingInteractor.swift */; };
 		FF9CA65E3354D00667C3E027 /* Pods_SPBanks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */; };
 		FFE112F82853C1F400C6DB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F72853C1F400C6DB57 /* AppDelegate.swift */; };
 		FFE112FA2853C1F400C6DB57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */; };
-		FFE112FC2853C1F400C6DB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112FB2853C1F400C6DB57 /* ViewController.swift */; };
 		FFE113022853C1F400C6DB57 /* SPBanks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFE113002853C1F400C6DB57 /* SPBanks.xcdatamodeld */; };
 		FFE113042853C1F400C6DB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE113032853C1F400C6DB57 /* Assets.xcassets */; };
 		FFE113072853C1F400C6DB57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE113052853C1F400C6DB57 /* LaunchScreen.storyboard */; };
@@ -60,10 +66,16 @@
 		FF4CB730285611A600C49B25 /* DetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
 		FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelarusbankBranches.swift; sourceTree = "<group>"; };
 		FF4CB78728575B7500C49B25 /* BelarusbankATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelarusbankATM.swift; sourceTree = "<group>"; };
+		FF4CB7902858B2E500C49B25 /* ObjectsTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsTabBarController.swift; sourceTree = "<group>"; };
+		FF4CB797285A177700C49B25 /* LoadingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPresenter.swift; sourceTree = "<group>"; };
+		FF4CB798285A177700C49B25 /* LoadingWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingWorker.swift; sourceTree = "<group>"; };
+		FF4CB799285A177700C49B25 /* LoadingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingRouter.swift; sourceTree = "<group>"; };
+		FF4CB79A285A177700C49B25 /* LoadingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingModels.swift; sourceTree = "<group>"; };
+		FF4CB79B285A177700C49B25 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		FF4CB79C285A177700C49B25 /* LoadingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingInteractor.swift; sourceTree = "<group>"; };
 		FFE112F42853C1F400C6DB57 /* SPBanks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPBanks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE112F72853C1F400C6DB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFE112FB2853C1F400C6DB57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FFE113012853C1F400C6DB57 /* SPBanks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SPBanks.xcdatamodel; sourceTree = "<group>"; };
 		FFE113032853C1F400C6DB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFE113062853C1F400C6DB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,9 +114,11 @@
 		FF4CB71B28560FA300C49B25 /* Scences */ = {
 			isa = PBXGroup;
 			children = (
+				FF4CB7952858C3FF00C49B25 /* Loading */,
 				FF4CB72A2856117A00C49B25 /* Details */,
 				FF4CB71D28560FF800C49B25 /* List */,
 				FF4CB71C28560FB400C49B25 /* Map */,
+				FF4CB78D2858B27A00C49B25 /* Objects */,
 			);
 			path = Scences;
 			sourceTree = "<group>";
@@ -159,18 +173,40 @@
 		FF4CB73A2856128000C49B25 /* Belarusbank */ = {
 			isa = PBXGroup;
 			children = (
-				FF4CB73B2856615200C49B25 /* Branches */,
+				FF4CB78728575B7500C49B25 /* BelarusbankATM.swift */,
+				FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */,
 			);
 			path = Belarusbank;
 			sourceTree = "<group>";
 		};
-		FF4CB73B2856615200C49B25 /* Branches */ = {
+		FF4CB7892858AEBD00C49B25 /* Resoures */ = {
 			isa = PBXGroup;
 			children = (
-				FF4CB7372856125A00C49B25 /* BelarusbankBranches.swift */,
-				FF4CB78728575B7500C49B25 /* BelarusbankATM.swift */,
+				FFE113032853C1F400C6DB57 /* Assets.xcassets */,
 			);
-			path = Branches;
+			name = Resoures;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FF4CB78D2858B27A00C49B25 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CB7902858B2E500C49B25 /* ObjectsTabBarController.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		FF4CB7952858C3FF00C49B25 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CB797285A177700C49B25 /* LoadingPresenter.swift */,
+				FF4CB798285A177700C49B25 /* LoadingWorker.swift */,
+				FF4CB799285A177700C49B25 /* LoadingRouter.swift */,
+				FF4CB79A285A177700C49B25 /* LoadingModels.swift */,
+				FF4CB79B285A177700C49B25 /* LoadingViewController.swift */,
+				FF4CB79C285A177700C49B25 /* LoadingInteractor.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		FFE112EB2853C1F400C6DB57 = {
@@ -194,12 +230,11 @@
 		FFE112F62853C1F400C6DB57 /* SPBanks */ = {
 			isa = PBXGroup;
 			children = (
+				FF4CB7892858AEBD00C49B25 /* Resoures */,
 				FF4CB7392856127100C49B25 /* Models */,
 				FF4CB71B28560FA300C49B25 /* Scences */,
 				FFE112F72853C1F400C6DB57 /* AppDelegate.swift */,
 				FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */,
-				FFE112FB2853C1F400C6DB57 /* ViewController.swift */,
-				FFE113032853C1F400C6DB57 /* Assets.xcassets */,
 				FFE113052853C1F400C6DB57 /* LaunchScreen.storyboard */,
 				FFE113082853C1F400C6DB57 /* Info.plist */,
 				FFE113002853C1F400C6DB57 /* SPBanks.xcdatamodeld */,
@@ -340,9 +375,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE112FC2853C1F400C6DB57 /* ViewController.swift in Sources */,
 				FF4CB7382856125A00C49B25 /* BelarusbankBranches.swift in Sources */,
 				FFE112F82853C1F400C6DB57 /* AppDelegate.swift in Sources */,
+				FF4CB79D285A177700C49B25 /* LoadingPresenter.swift in Sources */,
+				FF4CB7A1285A177700C49B25 /* LoadingViewController.swift in Sources */,
 				FF4CB71628560F9700C49B25 /* MapWorker.swift in Sources */,
 				FF4CB71A28560F9700C49B25 /* MapInteractor.swift in Sources */,
 				FF4CB732285611A600C49B25 /* DetailsWorker.swift in Sources */,
@@ -350,7 +386,9 @@
 				FF4CB7272856117200C49B25 /* ListModels.swift in Sources */,
 				FF4CB7292856117200C49B25 /* ListInteractor.swift in Sources */,
 				FF4CB71928560F9700C49B25 /* MapViewController.swift in Sources */,
+				FF4CB7A2285A177700C49B25 /* LoadingInteractor.swift in Sources */,
 				FF4CB736285611A600C49B25 /* DetailsInteractor.swift in Sources */,
+				FF4CB7912858B2E500C49B25 /* ObjectsTabBarController.swift in Sources */,
 				FF4CB78828575B7500C49B25 /* BelarusbankATM.swift in Sources */,
 				FF4CB71828560F9700C49B25 /* MapModels.swift in Sources */,
 				FF4CB731285611A600C49B25 /* DetailsPresenter.swift in Sources */,
@@ -359,10 +397,13 @@
 				FF4CB71728560F9700C49B25 /* MapRouter.swift in Sources */,
 				FF4CB7242856117200C49B25 /* ListPresenter.swift in Sources */,
 				FF4CB733285611A600C49B25 /* DetailsRouter.swift in Sources */,
+				FF4CB79E285A177700C49B25 /* LoadingWorker.swift in Sources */,
 				FF4CB7252856117200C49B25 /* ListWorker.swift in Sources */,
 				FF4CB734285611A600C49B25 /* DetailsModels.swift in Sources */,
 				FF4CB7262856117200C49B25 /* ListRouter.swift in Sources */,
+				FF4CB7A0285A177700C49B25 /* LoadingModels.swift in Sources */,
 				FFE113022853C1F400C6DB57 /* SPBanks.xcdatamodeld in Sources */,
+				FF4CB79F285A177700C49B25 /* LoadingRouter.swift in Sources */,
 				FFE112FA2853C1F400C6DB57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
