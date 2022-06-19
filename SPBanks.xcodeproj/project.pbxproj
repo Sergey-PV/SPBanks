@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF3993C0288C14820020FCF0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3993BF288C14820020FCF0 /* LoadingView.swift */; };
+		FF3993C3288C15DE0020FCF0 /* ConstantColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3993C2288C15DD0020FCF0 /* ConstantColor.swift */; };
 		FF4CB71528560F9700C49B25 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB70F28560F9700C49B25 /* MapPresenter.swift */; };
 		FF4CB71628560F9700C49B25 /* MapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71028560F9700C49B25 /* MapWorker.swift */; };
 		FF4CB71728560F9700C49B25 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71128560F9700C49B25 /* MapRouter.swift */; };
@@ -46,6 +48,8 @@
 		23409991B6C1121907FDD514 /* Pods-SPBanks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBanks.debug.xcconfig"; path = "Target Support Files/Pods-SPBanks/Pods-SPBanks.debug.xcconfig"; sourceTree = "<group>"; };
 		7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPBanks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0BEDB280F3D54BC6A4B8D2 /* Pods-SPBanks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBanks.release.xcconfig"; path = "Target Support Files/Pods-SPBanks/Pods-SPBanks.release.xcconfig"; sourceTree = "<group>"; };
+		FF3993BF288C14820020FCF0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FF3993C2288C15DD0020FCF0 /* ConstantColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantColor.swift; sourceTree = "<group>"; };
 		FF4CB70F28560F9700C49B25 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
 		FF4CB71028560F9700C49B25 /* MapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWorker.swift; sourceTree = "<group>"; };
 		FF4CB71128560F9700C49B25 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
@@ -109,6 +113,22 @@
 				7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF3993BE288C140E0020FCF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF3993BF288C14820020FCF0 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF3993C1288C15B60020FCF0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FF3993C2288C15DD0020FCF0 /* ConstantColor.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		FF4CB71B28560FA300C49B25 /* Scences */ = {
@@ -199,6 +219,7 @@
 		FF4CB7952858C3FF00C49B25 /* Loading */ = {
 			isa = PBXGroup;
 			children = (
+				FF3993BE288C140E0020FCF0 /* Views */,
 				FF4CB797285A177700C49B25 /* LoadingPresenter.swift */,
 				FF4CB798285A177700C49B25 /* LoadingWorker.swift */,
 				FF4CB799285A177700C49B25 /* LoadingRouter.swift */,
@@ -230,6 +251,7 @@
 		FFE112F62853C1F400C6DB57 /* SPBanks */ = {
 			isa = PBXGroup;
 			children = (
+				FF3993C1288C15B60020FCF0 /* Constants */,
 				FF4CB7892858AEBD00C49B25 /* Resoures */,
 				FF4CB7392856127100C49B25 /* Models */,
 				FF4CB71B28560FA300C49B25 /* Scences */,
@@ -398,12 +420,14 @@
 				FF4CB7242856117200C49B25 /* ListPresenter.swift in Sources */,
 				FF4CB733285611A600C49B25 /* DetailsRouter.swift in Sources */,
 				FF4CB79E285A177700C49B25 /* LoadingWorker.swift in Sources */,
+				FF3993C3288C15DE0020FCF0 /* ConstantColor.swift in Sources */,
 				FF4CB7252856117200C49B25 /* ListWorker.swift in Sources */,
 				FF4CB734285611A600C49B25 /* DetailsModels.swift in Sources */,
 				FF4CB7262856117200C49B25 /* ListRouter.swift in Sources */,
 				FF4CB7A0285A177700C49B25 /* LoadingModels.swift in Sources */,
 				FFE113022853C1F400C6DB57 /* SPBanks.xcdatamodeld in Sources */,
 				FF4CB79F285A177700C49B25 /* LoadingRouter.swift in Sources */,
+				FF3993C0288C14820020FCF0 /* LoadingView.swift in Sources */,
 				FFE112FA2853C1F400C6DB57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

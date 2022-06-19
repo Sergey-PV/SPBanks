@@ -54,6 +54,10 @@ class LoadingViewController: UIViewController, LoadingDisplayLogic {
     }
 
     // MARK: View lifecycle
+    
+    override func loadView() {
+        view = LoadingView()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,6 +67,10 @@ class LoadingViewController: UIViewController, LoadingDisplayLogic {
     // MARK: Do something
 
     //@IBOutlet weak var nameTextField: UITextField!
+    private lazy var loadingView: LoadingView = {
+        guard let view = view else {return LoadingView()}
+        return view as? LoadingView ?? LoadingView()
+    }()
 
     func doSomething() {
         let request = Loading.Something.Request()
