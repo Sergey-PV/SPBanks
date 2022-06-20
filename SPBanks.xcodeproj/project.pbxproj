@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FF3993C0288C14820020FCF0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3993BF288C14820020FCF0 /* LoadingView.swift */; };
 		FF3993C3288C15DE0020FCF0 /* ConstantColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3993C2288C15DD0020FCF0 /* ConstantColor.swift */; };
+		FF3993C7288C47810020FCF0 /* RequestableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3993C6288C47810020FCF0 /* RequestableData.swift */; };
 		FF4CB71528560F9700C49B25 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB70F28560F9700C49B25 /* MapPresenter.swift */; };
 		FF4CB71628560F9700C49B25 /* MapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71028560F9700C49B25 /* MapWorker.swift */; };
 		FF4CB71728560F9700C49B25 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB71128560F9700C49B25 /* MapRouter.swift */; };
@@ -50,6 +51,7 @@
 		7C0BEDB280F3D54BC6A4B8D2 /* Pods-SPBanks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBanks.release.xcconfig"; path = "Target Support Files/Pods-SPBanks/Pods-SPBanks.release.xcconfig"; sourceTree = "<group>"; };
 		FF3993BF288C14820020FCF0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FF3993C2288C15DD0020FCF0 /* ConstantColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantColor.swift; sourceTree = "<group>"; };
+		FF3993C6288C47810020FCF0 /* RequestableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestableData.swift; sourceTree = "<group>"; };
 		FF4CB70F28560F9700C49B25 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
 		FF4CB71028560F9700C49B25 /* MapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWorker.swift; sourceTree = "<group>"; };
 		FF4CB71128560F9700C49B25 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
@@ -129,6 +131,14 @@
 				FF3993C2288C15DD0020FCF0 /* ConstantColor.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		FF3993C4288C47360020FCF0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FF3993C6288C47810020FCF0 /* RequestableData.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		FF4CB71B28560FA300C49B25 /* Scences */ = {
@@ -251,6 +261,7 @@
 		FFE112F62853C1F400C6DB57 /* SPBanks */ = {
 			isa = PBXGroup;
 			children = (
+				FF3993C4288C47360020FCF0 /* Protocols */,
 				FF3993C1288C15B60020FCF0 /* Constants */,
 				FF4CB7892858AEBD00C49B25 /* Resoures */,
 				FF4CB7392856127100C49B25 /* Models */,
@@ -400,6 +411,7 @@
 				FF4CB7382856125A00C49B25 /* BelarusbankBranches.swift in Sources */,
 				FFE112F82853C1F400C6DB57 /* AppDelegate.swift in Sources */,
 				FF4CB79D285A177700C49B25 /* LoadingPresenter.swift in Sources */,
+				FF3993C7288C47810020FCF0 /* RequestableData.swift in Sources */,
 				FF4CB7A1285A177700C49B25 /* LoadingViewController.swift in Sources */,
 				FF4CB71628560F9700C49B25 /* MapWorker.swift in Sources */,
 				FF4CB71A28560F9700C49B25 /* MapInteractor.swift in Sources */,

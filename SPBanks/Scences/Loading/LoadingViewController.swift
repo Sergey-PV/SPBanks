@@ -54,7 +54,6 @@ class LoadingViewController: UIViewController, LoadingDisplayLogic {
     }
 
     // MARK: View lifecycle
-    
     override func loadView() {
         view = LoadingView()
     }

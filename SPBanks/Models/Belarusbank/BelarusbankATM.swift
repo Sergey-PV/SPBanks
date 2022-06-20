@@ -16,10 +16,6 @@ class BelarusbankATM: Codable {
     enum CodingKeys: String, CodingKey {
         case data = "Data"
     }
-    // MARK: getURL
-    static func getUrl() -> URL? {
-        return URL(string: "https://belarusbank.by/open-banking/v1.0/atms")
-    }
 
     // MARK: - DataClass
     struct DataClass: Codable {
@@ -126,5 +122,14 @@ class BelarusbankATM: Codable {
                 case serviceDescription = "description"
             }
         }
+    }
+}
+
+// MARK: - RequestableData
+extension BelarusbankATM: RequestableData {
+    static var urlRequest: URLRequest {
+        let url = URL(string: "https://belarusbank.by/open-banking/v1.0/atms")
+        let urlRequest = URLRequest(url: url!)
+        return urlRequest
     }
 }
