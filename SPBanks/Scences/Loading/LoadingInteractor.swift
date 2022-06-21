@@ -12,20 +12,26 @@ protocol LoadingBusinessLogic {
 }
 
 protocol LoadingDataStore {
-    //var name: String { get set }
+    var belarusbankATM: BelarusbankATM { get set }
 }
 
 class LoadingInteractor: LoadingBusinessLogic, LoadingDataStore {
     var presenter: LoadingPresentationLogic?
     var worker: LoadingWorker?
-    //var name: String = ""
+    var belarusbankATM = BelarusbankATM()
 
-    // MARK: Do something
+    // MARK: - Do something
 
     func doSomething(request: Loading.Something.Request) {
         worker = LoadingWorker()
-        worker?.doSomeWork()
-        
+        worker?.fetchData(on: BelarusbankATM.self, result: { [weak self] result in
+            switch result {
+            case .success(let data):
+                self?.belarusbankATM = data as BelarusbankATM
+            case .failure(let error):
+                print(error)
+            }
+        })
         let response = Loading.Something.Response()
         presenter?.presentSomething(response: response)
     }
