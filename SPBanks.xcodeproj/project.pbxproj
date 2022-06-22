@@ -43,6 +43,9 @@
 		FFE113022853C1F400C6DB57 /* SPBanks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFE113002853C1F400C6DB57 /* SPBanks.xcdatamodeld */; };
 		FFE113042853C1F400C6DB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE113032853C1F400C6DB57 /* Assets.xcassets */; };
 		FFE113072853C1F400C6DB57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE113052853C1F400C6DB57 /* LaunchScreen.storyboard */; };
+		FFFD749628BE05CC000C7DC0 /* BankFacility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD749528BE05CC000C7DC0 /* BankFacility.swift */; };
+		FFFD749828BE31E1000C7DC0 /* AdditionalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD749728BE31E1000C7DC0 /* AdditionalInfo.swift */; };
+		FFFD749A28BE3227000C7DC0 /* TypeOfBankFacility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD749928BE3227000C7DC0 /* TypeOfBankFacility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +89,9 @@
 		FFE113032853C1F400C6DB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFE113062853C1F400C6DB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFE113082853C1F400C6DB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFD749528BE05CC000C7DC0 /* BankFacility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankFacility.swift; sourceTree = "<group>"; };
+		FFFD749728BE31E1000C7DC0 /* AdditionalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfo.swift; sourceTree = "<group>"; };
+		FFFD749928BE3227000C7DC0 /* TypeOfBankFacility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfBankFacility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +201,7 @@
 		FF4CB7392856127100C49B25 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FFFD749428BD49C0000C7DC0 /* Main */,
 				FF4CB73A2856128000C49B25 /* Belarusbank */,
 			);
 			path = Models;
@@ -273,6 +280,16 @@
 				FFE113002853C1F400C6DB57 /* SPBanks.xcdatamodeld */,
 			);
 			path = SPBanks;
+			sourceTree = "<group>";
+		};
+		FFFD749428BD49C0000C7DC0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD749528BE05CC000C7DC0 /* BankFacility.swift */,
+				FFFD749728BE31E1000C7DC0 /* AdditionalInfo.swift */,
+				FFFD749928BE3227000C7DC0 /* TypeOfBankFacility.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +441,7 @@
 				FF4CB736285611A600C49B25 /* DetailsInteractor.swift in Sources */,
 				FF4CB7912858B2E500C49B25 /* ObjectsTabBarController.swift in Sources */,
 				FF4CB78828575B7500C49B25 /* BelarusbankATM.swift in Sources */,
+				FFFD749628BE05CC000C7DC0 /* BankFacility.swift in Sources */,
 				FF4CB71828560F9700C49B25 /* MapModels.swift in Sources */,
 				FF4CB731285611A600C49B25 /* DetailsPresenter.swift in Sources */,
 				FF4CB735285611A600C49B25 /* DetailsViewController.swift in Sources */,
@@ -438,8 +456,10 @@
 				FF4CB7262856117200C49B25 /* ListRouter.swift in Sources */,
 				FF4CB7A0285A177700C49B25 /* LoadingModels.swift in Sources */,
 				FFE113022853C1F400C6DB57 /* SPBanks.xcdatamodeld in Sources */,
+				FFFD749A28BE3227000C7DC0 /* TypeOfBankFacility.swift in Sources */,
 				FF4CB79F285A177700C49B25 /* LoadingRouter.swift in Sources */,
 				FF3993C0288C14820020FCF0 /* LoadingView.swift in Sources */,
+				FFFD749828BE31E1000C7DC0 /* AdditionalInfo.swift in Sources */,
 				FFE112FA2853C1F400C6DB57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

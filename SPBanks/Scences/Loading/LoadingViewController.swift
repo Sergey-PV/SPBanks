@@ -73,7 +73,7 @@ class LoadingViewController: UIViewController, LoadingDisplayLogic {
 
     func doSomething() {
         let request = Loading.Something.Request()
-        interactor?.doSomething(request: request)
+        interactor?.fetchData(request: request)
     }
 
     func displaySomething(viewModel: Loading.Something.ViewModel) {

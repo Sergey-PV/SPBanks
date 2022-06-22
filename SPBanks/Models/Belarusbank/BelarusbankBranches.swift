@@ -15,11 +15,6 @@ struct BelarusbankBranches: Codable {
         case data = "Data"
     }
 
-    // MARK: getURL
-    static func getUrl() -> URL? {
-        return URL(string: "https://belarusbank.by/open-banking/v1.0/branches")
-    }
-
     // MARK: - DataClass
     struct DataClass: Codable {
         var branch: [Branch]
@@ -238,5 +233,14 @@ struct BelarusbankBranches: Codable {
             case active = "Active"
             case inactive = "Inactive"
         }
+    }
+}
+
+// MARK: - RequestableData
+extension BelarusbankBranches: RequestableData {
+    static var urlRequest: URLRequest {
+        let url = URL(string: "https://belarusbank.by/open-banking/v1.0/branches")
+        let urlRequest = URLRequest(url: url!)
+        return urlRequest
     }
 }

@@ -8,26 +8,43 @@
 import UIKit
 
 protocol LoadingBusinessLogic {
-    func doSomething(request: Loading.Something.Request)
+    func fetchData(request: Loading.Something.Request)
 }
 
 protocol LoadingDataStore {
     var belarusbankATM: BelarusbankATM { get set }
+    var belarusbankBranch: BelarusbankBranches { get set }
 }
 
 class LoadingInteractor: LoadingBusinessLogic, LoadingDataStore {
+    var belarusbankATM = BelarusbankATM()
+    var belarusbankBranch = BelarusbankBranches()
     var presenter: LoadingPresentationLogic?
     var worker: LoadingWorker?
-    var belarusbankATM = BelarusbankATM()
 
-    // MARK: - Do something
+    // MARK: - Fetch Data
+    func fetchData(request: Loading.Something.Request) {
+    }
 
-    func doSomething(request: Loading.Something.Request) {
+    private func fetchBelarusbankBranches() {
+        worker?.fetchData(on: BelarusbankBranches.self, result: { [weak self] result in
+            switch result {
+            case .success(let data):
+                self?.belarusbankBranch = data
+            case .failure(let error):
+                print(error)
+            }
+        })
+        let response = Loading.Something.Response()
+        presenter?.presentSomething(response: response)
+    }
+
+    private func fetchBelarusbankATM() {
         worker = LoadingWorker()
         worker?.fetchData(on: BelarusbankATM.self, result: { [weak self] result in
             switch result {
             case .success(let data):
-                self?.belarusbankATM = data as BelarusbankATM
+                self?.belarusbankATM = data
             case .failure(let error):
                 print(error)
             }

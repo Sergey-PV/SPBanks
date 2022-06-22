@@ -10,3 +10,5 @@ import Foundation
 protocol RequestableData: Decodable {
     static var urlRequest: URLRequest { get }
 }
+
+
