@@ -236,6 +236,24 @@ struct BelarusbankBranches: Codable {
     }
 }
 
+extension BelarusbankATM {
+    func convertToBankFacilities() -> [BankFacility] {
+        var bankFacilities: [BankFacility] = []
+        for atm in self.data.atm {
+            let bankFacility = BankFacility(id: <#T##Int#>,
+                                            type: <#T##TypeOfBankFacility#>,
+                                            geoLocation: <#T##CLLocation#>,
+                                            name: <#T##String#>,
+                                            address: <#T##String#>,
+                                            availability: <#T##String#>,
+                                            cards: <#T##String#>,
+                                            currency: <#T##String#>,
+                                            otherInfo: <#T##[AdditionalInfo]#>)
+        }
+        return bankFacilities
+    }
+}
+
 // MARK: - RequestableData
 extension BelarusbankBranches: RequestableData {
     static var urlRequest: URLRequest {
@@ -244,3 +262,5 @@ extension BelarusbankBranches: RequestableData {
         return urlRequest
     }
 }
+
+

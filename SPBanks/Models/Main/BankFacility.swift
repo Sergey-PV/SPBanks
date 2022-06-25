@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 struct BankFacility {
-    let id: Int
+    let id: String
     let type: TypeOfBankFacility
     let geoLocation: CLLocation
     let name: String
