@@ -8,6 +8,11 @@
 import Foundation
 import CoreLocation
 
+// MARK: - Constants
+private struct ConstantString {
+    static let prefixId = "BelarusbankATM"
+}
+
 // MARK: - BelarusbankATM
 class BelarusbankATM: Codable {
 

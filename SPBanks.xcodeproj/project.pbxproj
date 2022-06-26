@@ -37,6 +37,7 @@
 		FF4CB7A0285A177700C49B25 /* LoadingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB79A285A177700C49B25 /* LoadingModels.swift */; };
 		FF4CB7A1285A177700C49B25 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB79B285A177700C49B25 /* LoadingViewController.swift */; };
 		FF4CB7A2285A177700C49B25 /* LoadingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CB79C285A177700C49B25 /* LoadingInteractor.swift */; };
+		FF881B5428C3E16200C3ADD5 /* CLLocation+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF881B5328C3E16200C3ADD5 /* CLLocation+Ex.swift */; };
 		FF9CA65E3354D00667C3E027 /* Pods_SPBanks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A84B5E4B12A06E468ABD323 /* Pods_SPBanks.framework */; };
 		FFE112F82853C1F400C6DB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F72853C1F400C6DB57 /* AppDelegate.swift */; };
 		FFE112FA2853C1F400C6DB57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */; };
@@ -83,6 +84,7 @@
 		FF4CB79A285A177700C49B25 /* LoadingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingModels.swift; sourceTree = "<group>"; };
 		FF4CB79B285A177700C49B25 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		FF4CB79C285A177700C49B25 /* LoadingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingInteractor.swift; sourceTree = "<group>"; };
+		FF881B5328C3E16200C3ADD5 /* CLLocation+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Ex.swift"; sourceTree = "<group>"; };
 		FFE112F42853C1F400C6DB57 /* SPBanks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPBanks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE112F72853C1F400C6DB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE112F92853C1F400C6DB57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				FFFD749F28C38653000C7DC0 /* URLSession+Ex.swift */,
+				FF881B5328C3E16200C3ADD5 /* CLLocation+Ex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				FF4CB79D285A177700C49B25 /* LoadingPresenter.swift in Sources */,
 				FF3993C7288C47810020FCF0 /* RequestableData.swift in Sources */,
 				FF4CB7A1285A177700C49B25 /* LoadingViewController.swift in Sources */,
+				FF881B5428C3E16200C3ADD5 /* CLLocation+Ex.swift in Sources */,
 				FF4CB71628560F9700C49B25 /* MapWorker.swift in Sources */,
 				FF4CB71A28560F9700C49B25 /* MapInteractor.swift in Sources */,
 				FF4CB732285611A600C49B25 /* DetailsWorker.swift in Sources */,
