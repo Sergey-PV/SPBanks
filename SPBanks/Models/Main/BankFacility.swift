@@ -17,5 +17,5 @@ struct BankFacility {
     let availability: String
     let cards: String
     let currency: String
-    let otherInfo: [AdditionalInfo]
+    let otherInfo: [OtherInfo]
 }

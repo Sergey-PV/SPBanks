@@ -8,11 +8,6 @@
 import Foundation
 import CoreLocation
 
-// MARK: - Constants
-private struct ConstantString {
-    static let prefixId = "BelarusbankATM"
-}
-
 // MARK: - BelarusbankATM
 class BelarusbankATM: Codable {
 
@@ -127,6 +122,26 @@ class BelarusbankATM: Codable {
                 case serviceDescription = "description"
             }
         }
+    }
+}
+
+// MARK: - Private methods
+extension BelarusbankATM {
+    private func convertToBankFacility() -> [BankFacility] {
+        
+        var bankFacility: [BankFacility]
+        for atm in self.data.atm {
+            let bankFacility = BankFacility(id: atm.getId(),
+                                            type: atm.getType(),
+                                            geoLocation: atm.getGeoLocation(),
+                                            name: atm.getName(),
+                                            address: atm.getAddress(),
+                                            availability: atm.getName(),
+                                            cards: atm.getCards(),
+                                            currency: atm.getCurrency(),
+                                            otherInfo: atm.getOtherInfo())
+        }
+       
     }
 }
 
