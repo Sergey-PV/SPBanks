@@ -129,7 +129,7 @@ class BelarusbankATM: Codable {
 extension BelarusbankATM {
     private func convertToBankFacility() -> [BankFacility] {
         
-        var bankFacility: [BankFacility]
+        var bankFacilities: [BankFacility] = []
         for atm in self.data.atm {
             let bankFacility = BankFacility(id: atm.getId(),
                                             type: atm.getType(),
@@ -140,8 +140,9 @@ extension BelarusbankATM {
                                             cards: atm.getCards(),
                                             currency: atm.getCurrency(),
                                             otherInfo: atm.getOtherInfo())
+            bankFacilities.append(bankFacility)
         }
-       
+        return bankFacilities
     }
 }
 
@@ -151,5 +152,16 @@ extension BelarusbankATM: RequestableData {
         let url = URL(string: "https://belarusbank.by/open-banking/v1.0/atms")
         let urlRequest = URLRequest(url: url!)
         return urlRequest
+    }
+    
+    func fetchData(someResult: @escaping (Result<[BankFacility], Error>) -> Void ){
+            URLSession.performRequest(on: BelarusbankATM.self, result: { result in
+                switch result {
+                case .success(let data):
+                    someResult(.success(data.convertToBankFacility()))
+                case .failure(let error):
+                    print(error)
+                }
+            })
     }
 }
